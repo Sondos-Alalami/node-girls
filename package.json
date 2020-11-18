@@ -1,0 +1,29 @@
+{
+  "name": "girls-ws",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "kill": "fuser -k 3000/tcp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-7/node-girls-ws.git"
+  },
+  "author": "Sondos Alalami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-7/node-girls-ws/issues"
+  },
+  "homepage": "https://github.com/ali-7/node-girls-ws#readme",
+  "devDependencies": {
+    "env2": "^2.2.2",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
